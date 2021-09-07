@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+=================================================================
+Kemomimi Cloudflare JS Challenge by WooMai
+2020-06-30
+Licensed Under Apache License 2.0
+https://github.com/WooMai/kemomimi-cloudflare-js-challenge
+=================================================================
+-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Just a moment ...</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Ubuntu', sans-serif;
+            user-select: none;
+        }
+
+        img {
+            transform-origin: 50% 50%;
+            animation: 1.5s ro infinite linear;
+            pointer-events: none;
+        }
+
+        @keyframes ro {
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="kemomimi-500px.png" style="height: 500px; margin-top: 2%;">
+    <h2>Almost there</h2>
+    <p>We are validating your browser, please wait ...</p>
+    <p style="margin-bottom: 10px; margin-top: 30px;">
+        Your IP Address: ::CLIENT_IP::
+        <br>
+        Ray ID: ::RAY_ID::
+    </p>
+    <p style="margin-top: 5px; margin-bottom: 5px;">
+        <small>
+            <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=iuam">
+                DDoS protection by Cloudflare
+            </a>
+        </small>
+    </p>
+    <div style="display: none;">::IM_UNDER_ATTACK_BOX::</div>
+</body>
+
+</html>
