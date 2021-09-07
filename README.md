@@ -10,6 +10,6 @@
 
 ## License
 
-This project is licensed under the [Apache License 2.0](/LICENSE), except:
+This project is licensed under the [DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE](/LICENSE), except:
 
 * All Kemomimi Illustrations are copyrighted by ながユー ([Pixiv](https://www.pixiv.net/users/2509595) / [Twitter](https://twitter.com/naga_u_))
